@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:key="KEY_ACCOUNT_CAT"
+        android:title="@string/account">
+
+        <Preference
+            android:key="KEY_ACCOUNT"
+            android:title="@string/current_account"
+            android:summary="@string/text_for_logout"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="KEY_SYNC"
+        android:title="@string/sync">
+
+        <SwitchPreferenceCompat
+            android:key="KEY_AUTO_SYNC"
+            android:title="@string/auto_sync"
+            android:defaultValue="false"
+            android:summary="@string/auto_sync_summary" />
+
+        <ListPreference
+            android:key="KEY_AUTO_SYNC_INTERVAL"
+            android:title="@string/auto_sync_interval"
+            android:defaultValue="@string/auto_sync_interval_default"
+            android:dependency="KEY_AUTO_SYNC"
+            android:entries="@array/auto_sync_intervals"
+            android:entryValues="@array/auto_sync_interval_values"
+            android:summary="%s" />
+
+        <Preference
+            android:key="KEY_START_SYNC"
+            android:title="@string/do_sync" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="KEY_COMMON_SETTINGS"
+        android:title="@string/common_settings" >
+
+        <ListPreference
+            android:key="KEY_PALETTE"
+            android:title="@string/palette"
+            android:entries="@array/color_names"
+            android:entryValues="@array/color_values"
+            android:defaultValue="@string/color_default"
+            android:summary="%s" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

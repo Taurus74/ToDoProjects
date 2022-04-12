@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="auto_sync_intervals">
+        <item>Каждые пятнадцать минут</item>
+        <item>Каждый час</item>
+        <item>Раз в три часа</item>
+        <item>Раз в день</item>
+    </string-array>
+
+    <string-array name="color_names">
+        <item>Красный</item>
+        <item>Розовый</item>
+        <item>Фиолетовый</item>
+        <item>Темно-фиолетовый</item>
+        <item>Индиго</item>
+        <item>@string/color_default</item>
+        <item>Светло-синий</item>
+        <item>Голубой</item>
+        <item>Бирюзовый</item>
+        <item>Зеленый</item>
+        <item>Светло-зеленый</item>
+        <item>Лайм</item>
+        <item>Желтый</item>
+        <item>Янтарный</item>
+        <item>Оранжевый</item>
+        <item>Темно-оранжевый</item>
+        <item>Коричневый</item>
+        <item>Серый</item>
+        <item>Серо-голубой</item>
+    </string-array>
+
+    <string name="color_default">Синий</string>
+
+</resources>

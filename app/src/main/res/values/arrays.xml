@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="auto_sync_intervals">
+        <item>Every fifteen minutes</item>
+        <item>Every one hour</item>
+        <item>Once every three hours</item>
+        <item>Once every day</item>
+    </string-array>
+
+    <string-array name="auto_sync_interval_values">
+        <item>900</item>
+        <item>@string/auto_sync_interval_default</item>
+        <item>10800</item>
+        <item>86400</item>
+    </string-array>
+
+    <string name="auto_sync_interval_default" translatable="false">3600</string>
+
+    <string-array name="color_names">
+        <item>Red</item>
+        <item>Pink</item>
+        <item>Purple</item>
+        <item>Deep Purple</item>
+        <item>Indigo</item>
+        <item>Blue</item>
+        <item>Light Blue</item>
+        <item>Cyan</item>
+        <item>Teal</item>
+        <item>Green</item>
+        <item>Light Green</item>
+        <item>Lime</item>
+        <item>Yellow</item>
+        <item>Amber</item>
+        <item>Orange</item>
+        <item>Deep Orange</item>
+        <item>Brown</item>
+        <item>Gray</item>
+        <item>Blue Gray</item>
+    </string-array>
+
+    <string-array name="color_values">
+        <item name="red500"       >#F44336</item>
+        <item name="pink500"      >#E91E63</item>
+        <item name="purple500"    >#9C27B0</item>
+        <item name="deepPurple500">#673AB7</item>
+        <item name="indigo500"    >#3F51B5</item>
+        <item name="blue"         >@string/color_default</item>
+        <item name="lightBlue500" >#03A9F4</item>
+        <item name="cyan500"      >#00BCD4</item>
+        <item name="teal500"      >#009688</item>
+        <item name="green500"     >#4CAF50</item>
+        <item name="lightGreen500">#8BC34A</item>
+        <item name="lime500"      >#CDDC39</item>
+        <item name="yellow500"    >#FFEB3B</item>
+        <item name="amber500"     >#FFC107</item>
+        <item name="orange500"    >#FF9800</item>
+        <item name="deepOrange500">#FF5722</item>
+        <item name="brown500"     >#795548</item>
+        <item name="gray500"      >#9E9E9E</item>
+        <item name="blueGray500"  >#607D8B</item>
+    </string-array>
+
+    <string name="color_default">#6200EE</string>
+
+</resources>
